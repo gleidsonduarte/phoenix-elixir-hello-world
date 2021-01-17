@@ -4,8 +4,6 @@ services:
   elixir:
     build:
       context: .
-      args:
-        - ENVIRONMENT=dev
     volumes:
       - ./:/app
     ports:

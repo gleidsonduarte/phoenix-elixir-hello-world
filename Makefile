@@ -1,7 +1,8 @@
 .PHONY: up down ps
 
 up:
-	@docker-compose up --build -d
+	@mix deps.get && \
+	docker-compose up --build -d
 
 down:
 	@docker-compose down
