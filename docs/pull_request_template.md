@@ -1,5 +1,4 @@
 [SERVICE-NAME] Descrição da nova funcionalidade ou alteração
-
 # Potencial impacto
 - Descrever algum tipo de impacto caso possa existir. 
 
